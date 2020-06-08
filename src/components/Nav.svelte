@@ -88,6 +88,6 @@ main {
   </ul>
 </nav>
 <main 
-  use:animate={{ type: 'from', duration: 1,y:100, ease: "bounce",opacity: 0,scale:0.5, onComplete: () => (desc = true) }}>
+  use:animate={{ type: 'from', duration: 0.5,y:50, ease: "bounce",opacity: 0,scale:0.5, onComplete: () => (desc = true) }}>
   <p class="text-secondary-600">Sapper >> TailWind >> Gsap !!!!!</p>
 </main>
